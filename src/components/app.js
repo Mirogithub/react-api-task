@@ -1,6 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
-// import SwapiService from "../services/swapi-service";
 import ListPopFilms from './list-pop-films';
 import ListSimFilms from './list-sim-films';
 import Header from './header';
