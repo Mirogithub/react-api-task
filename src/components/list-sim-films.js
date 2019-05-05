@@ -37,7 +37,7 @@ export default  class ListSimFilms extends  React.Component {
     return arr.map(({id, title, poster, language}) => {
       const _imgUrl=`https://image.tmdb.org/t/p/w600_and_h900_bestv2/${poster}`;
       return (
-        <li key={id} onClick={() => this.props.onFilmSelected(id)}>
+        <li key={id}>
           <img src={_imgUrl} alt="img" />
           <span>*{title} - {language} </span>
         </li>
