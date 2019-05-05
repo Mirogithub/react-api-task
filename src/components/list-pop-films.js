@@ -1,5 +1,4 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
 import SwapiService from "../services/swapi-service";
 
 export default  class ListPopFilms extends  React.Component {
@@ -18,15 +17,6 @@ export default  class ListPopFilms extends  React.Component {
     });
   }
 
-  // onFilmLoaded=(film)=>{
-  //   // console.log(film)
-  //   this.setState({film})
-  // }
-
-  // getFilmInfo(id=1){
-  //   this.swapiService.getFilm(id)
-  //   .then(this.onFilmLoaded);
-  // }
 
 
   renderItems(arr) {
